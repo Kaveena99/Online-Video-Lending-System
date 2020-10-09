@@ -1,0 +1,337 @@
+@charset "ISO-8859-1";
+
+.card {
+
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("../images/background.jpg") ;
+   	background-size: cover;
+  	background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(44,62,80,0.7);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 40px;
+    border: 3px solid #ffffff;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    border-bottom:1px solid #fff;
+    font-size: 16px;
+  	color:white;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  	padding: 8px 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.header {
+	background-color: #283747  ;
+	width: 100%;
+	height: 80px;
+	display: block;
+}
+
+.menu1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.menu2 {
+  float: left;
+  color:red;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.menu3 {
+  float: right;
+}
+
+.menu4{
+  display: block;
+  color: white;
+  font-family:calibri;
+  font-size:15px;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.active1 {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family:calibri;
+  font-size:15px;
+  padding: 30px 30px;
+  text-decoration: none;
+  background-color:grey;
+  border-radius:4px
+}
+
+li a:hover {
+  background-color: grey;
+  border-radius:4px
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	font-family:calibri;
+}
+
+.logo1{
+	height: auto;
+	width: 200px;
+	padding: 50px 0px 100px 8px;
+}
+
+.logo2{
+	height: auto;
+	width: 200px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo3{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo4{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo5{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo6{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.p2 {
+	font-size: 18px;
+	color: white;
+	font-family: calibri;
+	float:right;
+}
+
+/*header*/
+.header {
+	background-color: #283747  ;
+	width: 100%;
+	height: 80px;
+	display: block;
+}
+
+.menu1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.menu2 {
+  float: left;
+  color:red;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.menu3 {
+  float: right;
+}
+
+.menu4{
+  display: block;
+  color: white;
+  font-family:calibri;
+  font-size:15px;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.active1 {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family:calibri;
+  font-size:15px;
+  padding: 30px 30px;
+  text-decoration: none;
+  background-color:grey;
+  border-radius:4px
+}
+
+li a:hover {
+  background-color: grey;
+  border-radius:4px
+}
+/*end of the header*/
+
+
+/*footer*/
+
+.footer {
+	width: 100%;
+	height: 300px;
+	font-family:calibri;
+	background-color: #283747  ;
+}
+
+.logo1{
+	height: auto;
+	width: 200px;
+	padding: 23px 0px 100px 8px;
+}
+
+.logo2{
+	height: auto;
+	width: 200px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo3{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo4{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo5{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo6{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.p2 {
+	font-size: 18px;
+	color: white;
+	font-family: calibri;
+	float:right;
+}

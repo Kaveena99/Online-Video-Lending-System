@@ -1,0 +1,192 @@
+@charset "ISO-8859-1";
+.header {
+	background-color:#283747;
+	width:100%;
+	height:80px;
+	display:block;
+}
+
+.menu1 {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  
+}
+
+.menu2 {
+  float:left;
+  color:red;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.menu3 {
+  float: right;
+}
+
+.menu4{
+  display: block;
+  color: white;
+  font-family:calibri;
+  font-size:15px;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.active1 {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family:calibri;
+  font-size:15px;
+  padding: 30px 30px;
+  text-decoration: none;
+  background-color:grey;
+  border-radius:4px
+}
+
+li a:hover {
+  background-color: grey;
+  border-radius:4px
+}
+
+
+
+
+
+
+.body{
+	margin: 0;
+    padding: 0;
+    background-image:url("../images/background.jpg") ;
+   	background-size: cover;
+  	background-position: center;
+    font-family: sans-serif;
+    background-repeat:no-repeat;
+		
+}
+
+.all{
+	
+	width:350px;
+	margin:170px auto;
+	height:410px;
+	padding:30px;
+	border-radius: 10px 0 10px 0;
+	border: 3px solid #999;
+	background: linear-gradient(200grad, rgb(200, 10, 10), rgb(25, 4, 5));
+}
+.form{
+	
+	color:#222;
+	padding:30px;
+	
+	border-radius: 0 10px 0 10px;
+	background: linear-gradient(200grad, rgb(80, 10, 10), rgb(25, 4, 5));
+}
+.input{
+    top:30px;
+	background:#111;
+	color:#fff;
+	margin:auto;
+	width:280px;
+	height:140px;
+	text-align:center;
+	padding:1px;
+    border: 3px solid  #7d5a51;
+    border-radius: 10px;
+}
+
+input{
+ 
+  background:transparent;
+  border-color: #eee !important;
+  margin: 0 auto;
+  width:190px;
+  color:white;
+   
+}
+button{
+	
+    
+	background:transparent;
+	font-color:white;
+	width: 110px;
+	height: 25px;
+	font-family: "Montserrat";
+	border: 1px solid #eee;
+	position: relative;
+	color:#eee;
+	margin-top: 8px;
+	text-align:center;
+	font-weight:bold;
+	cursor:pointer;
+	
+	
+}
+button:hover{
+	background:#D50000;
+	border:none;
+	transition: all 1.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+	width: 100%;
+	height: 300px;
+	font-family:calibri;
+	background-color: #283747  ;
+}
+
+.logo1{
+	height: auto;
+	width: 200px;
+	padding: 23px 0px 100px 8px;
+}
+
+.logo2{
+	height: auto;
+	width: 200px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo3{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo4{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo5{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.logo6{
+	height: auto;
+	width: 50px;
+	padding: 23px 0px 100px 20px;
+}
+
+.p2 {
+	font-size: 18px;
+	color: white;
+	font-family: calibri;
+	float:right;
+	
+}

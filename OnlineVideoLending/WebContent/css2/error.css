@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+.div1{
+	text-align:center;
+	background-color:#666666;
+}
+
+.bg {
+ 
+  background-image: url("images\error.jpg");
+
+
+  height: 100%; 
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p.txt {
+  font-size: 70px;
+  color:black;
+  text-align:center;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+    background-image:url("../images/background.jpg") ;
+   	background-size: cover;
+  	background-position: center;
+    font-family: sans-serif;
+}
+
+h1{
+	font-size:70px;
+}
+
+a{
+	color:red;
+	font-size:40px;
+}
